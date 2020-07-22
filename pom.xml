@@ -30,14 +30,14 @@
         <artifactId>weblogic-maven-plugin</artifactId>
         <version>10.3.4</version>
         <configuration>
-          <adminurl>http://vmw10mcs00838:7001/console/</adminurl>
+          <adminurl>t3://vmw10mcs00838:7001/console/</adminurl>
           <user>abigail</user>
           <password>Abigail@123</password>
           <upload>true</upload>
           <action>deploy</action>
           <remote>false</remote>
           <verbose>true</verbose>
-          <source>target/pds.ear</source>
+          <source>target/MavenWebProject.war</source>
           <name>PDS</name>
         </configuration>
       </plugin>
