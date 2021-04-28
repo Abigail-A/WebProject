@@ -30,7 +30,7 @@
         <artifactId>weblogic-maven-plugin</artifactId>
         <version>10.3.4</version>
         <configuration>
-          <adminurl>t3://vmw10mcs00838:7001/console/</adminurl>
+          <adminurl>t3://ashwin:7001/console/</adminurl>
           <user>abigail</user>
           <password>Abigail@123</password>
           <upload>true</upload>
