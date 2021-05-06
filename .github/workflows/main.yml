@@ -32,9 +32,9 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Create directory
-      run: mkdir C:\runner\WebRunner_work\WebProject\wepApplication
+      run: mkdir C:\runner\WebRunner_work\wepApplication
       
     - name: copy file
-      run: robocopy "C:\runner\WebRunner_work\WebProject\" "C:\runner\WebRunner_work\WebProject\wepApplication" /E /IS /IT
+      run: robocopy "C:\runner\WebRunner_work\WebProject\" "C:\runner\WebRunner_work\wepApplication" /E /IS /IT
 
       
