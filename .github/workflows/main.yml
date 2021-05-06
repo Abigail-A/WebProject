@@ -31,3 +31,13 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
+    - name: Create directory
+      run: mkdir C:\runner\WebRunner_work\WebProject\WebProject\wepApplication
+      
+    - name: copy file
+      uses: canastro/copy-file-action@master
+      with:
+        source: "C:\\runner\\WebRunner_work\\WebProject\\WebProject\\"
+        target: "C:\\runner\\WebRunner_work\\WebProject\\WebProject\\wepApplication"
+
+      
