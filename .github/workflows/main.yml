@@ -35,7 +35,7 @@ jobs:
       run: mkdir C:\runner\WebRunner_work\WebProject\WebProject\wepApplication
       
     - name: copy file
-      run: robocopy "C:\\runner\\WebRunner_work\\WebProject\\WebProject\\" "C:\\runner\\WebRunner_work\\WebProject\\WebProject\\wepApplication"
+      run: robocopy "C:\runner\WebRunner_work\WebProject\WebProject\" "C:\runner\WebRunner_work\WebProject\WebProject\wepApplication" /COPYALL /E
 
 
       
